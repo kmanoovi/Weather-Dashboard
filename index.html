@@ -7,9 +7,77 @@
     <link  href="https://openweathermap.org/api/one-call-api"
     rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
-    
+    <div class="jumbotron jumbotron-fluid text-white">
+        <div class="container">
+          <h1 class="display-4">Weather Dashboard</h1>
+          <p class="lead">Search your city below to see this week's weather report!</p>
+        </div>
+      </div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Search City</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+    </div>
+  <div class="week-weather-cards row">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Monday</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Tuesday</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Wednesday</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Thursday</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+  </div> 
+  <div class="weekend-weather-cards row">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Friday</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Saturday</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Sunday</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+  </div>
+  
+  <script src="./assets/script.js"></script>
 </body>
 </html>
